@@ -101,7 +101,6 @@ GT911_Status_t GT911_ReadTouch(TouchCordinate_t *cordinate, uint8_t *number_of_c
 		}
 		GT911_SetStatus(0);
 	}
-	*number_of_cordinate = 0;
 	return GT911_OK;
 }
 
